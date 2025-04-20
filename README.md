@@ -25,5 +25,7 @@ Outputs a clean CSV file ready for reporting
 Used to categorize data based on conditions:
 ```powerquery
 = Table.AddColumn(Source, "Status", each if [Length of Name] > 10 then "Large name" else "Short name")
+
 ### 2. Text.Lenght()
+
 = Table.AddColumn(Source, "NameLength", each Text.Length([Name]))
