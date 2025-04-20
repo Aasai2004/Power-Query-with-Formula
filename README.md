@@ -1,4 +1,4 @@
-# 🧩 Power Query Automation Project
+# 🧩 Power Query Automation Simple Project
 
 This project demonstrates how to use Power Query to automate data transformation, including conditional logic and string manipulation.
 
